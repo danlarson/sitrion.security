@@ -53,10 +53,6 @@ namespace Sitrion.Security.KeyVault
 
         public string VaultUri { get; private set; }
 
-        //<add key="keyvault-clientId" value="f8a88944-6c69-4e64-ae09-87715bc14ff2"/>
-        //<add key="keyvault-thumbprint" value="046fca1f1f4a23a1b5141f6890b513af1f0acd7d"/>
-        //<add key="keyvault-uri" value="https://sitriondev-kv.vault.azure.net"/>
-
         public static KeyVaultEncryptor Create(string vaultUri, string clientId, string thumbprintOrSecret, KeyVaultAuthentication authType)
         {
             IAdalTokenProvider auth;
