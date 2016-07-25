@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,8 +14,8 @@ namespace Sitrion.Security.KeyVault.Test
         [TestMethod]
         public void KeyVaultEncryptor_Encrypt()
         {
-            string vault = "https://sitriondev-kv.vault.azure.net";
-                        
+            string vault = ConfigurationManager.AppSettings["keyvault-uri"];
+
             KeyVaultEncryptor enc = new KeyVaultEncryptor(vault, TestUtil.Auth) { Test = true};
 
             string keyname = "randomtenantid1";
