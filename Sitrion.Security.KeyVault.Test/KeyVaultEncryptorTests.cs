@@ -12,7 +12,7 @@ namespace Sitrion.Security.KeyVault.Test
     public class KeyVaultEncryptorTests
     {
         [TestMethod]
-        public void KeyVaultEncryptor_Encrypt()
+        public void KeyVault_KeyWrap()
         {
             string vault = ConfigurationManager.AppSettings["keyvault-uri"];
 

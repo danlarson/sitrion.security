@@ -7,7 +7,7 @@ namespace Sitrion.Security.Test
     public class CryptoUtilityTest
     {
         [TestMethod]
-        public void TestKeyGen()
+        public void RNGCryptoServiceProvider_TestKeyGen()
         {
             var key = CryptoUtility.CreateCryptograhicKey(32);
             string skey = Convert.ToBase64String(key);

@@ -8,7 +8,7 @@ namespace Sitrion.Security.Test
     public class SimpleAesEncryptorTest
     {
         [TestMethod]
-        public void BasicEncDecrypt()
+        public void AES_BasicEncryption()
         {
             string hello = Guid.NewGuid().ToString();
 
@@ -23,7 +23,7 @@ namespace Sitrion.Security.Test
         }
 
         [TestMethod]
-        public void EncryptionsAreUniqueForSameData()
+        public void AES_EncryptionsAreUniqueForSameData()
         {
             string hello = Guid.NewGuid().ToString();
 
@@ -41,7 +41,7 @@ namespace Sitrion.Security.Test
         }
 
         [TestMethod]
-        public void KeyedCyphertextCantBeCopiedToOtherKeys()
+        public void AES_KeyedCyphertextCantBeCopiedToOtherKeys()
         {
             string hello = "hello";
             string key = "dan@example.com";

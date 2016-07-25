@@ -9,7 +9,7 @@ namespace Sitrion.Security.Test
     public class RsaEncryptorTest
     {
         [TestMethod]
-        public void EncDecTest()
+        public void RSA_BasicEncryption()
         {
             var thumb = ConfigurationManager.AppSettings["Thumbprint"];
 
@@ -33,7 +33,6 @@ namespace Sitrion.Security.Test
             var s = Encoding.UTF8.GetString(enc.DecryptBytes(e));
 
             Assert.AreEqual(s, hello);
-
 
         }
     }
