@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/packages
+/Sitrion.Security/bin/Debug
+/Sitrion.Security/obj/Debug
+*.suo
+/Sitrion.Security.KeyVault/bin/Debug
+/Sitrion.Security.KeyVault/obj/Debug
+/Sitrion.Security.KeyVault.Test/bin/Debug
+/Sitrion.Security.KeyVault.Test/obj/Debug
+/Sitrion.Security.Test/obj/Debug
+/Sitrion.Security.KeyVault.Test/App.config

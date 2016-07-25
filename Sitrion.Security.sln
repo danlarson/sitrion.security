@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitrion.Security", "Sitrion
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitrion.Security.Test", "Sitrion.Security.Test\Sitrion.Security.Test.csproj", "{E031EA43-A760-4655-9F21-D38EA85EB4DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitrion.Security.KeyVault.Test", "Sitrion.Security.KeyVault.Test\Sitrion.Security.KeyVault.Test.csproj", "{9DAB0A33-3292-41EC-9996-8E4AE041AFBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,12 @@ Global
 		{E031EA43-A760-4655-9F21-D38EA85EB4DF}.DevRelease|Any CPU.Build.0 = Release|Any CPU
 		{E031EA43-A760-4655-9F21-D38EA85EB4DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E031EA43-A760-4655-9F21-D38EA85EB4DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DAB0A33-3292-41EC-9996-8E4AE041AFBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DAB0A33-3292-41EC-9996-8E4AE041AFBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DAB0A33-3292-41EC-9996-8E4AE041AFBD}.DevRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{9DAB0A33-3292-41EC-9996-8E4AE041AFBD}.DevRelease|Any CPU.Build.0 = Release|Any CPU
+		{9DAB0A33-3292-41EC-9996-8E4AE041AFBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DAB0A33-3292-41EC-9996-8E4AE041AFBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
