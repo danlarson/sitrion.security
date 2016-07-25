@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitrion.Security.KeyVault", "Sitrion.Security.KeyVault\Sitrion.Security.KeyVault.csproj", "{6F660A29-C8A8-4E87-8DB5-8A41A9FFFB42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitrion.Security", "Sitrion.Security\Sitrion.Security.csproj", "{119EA9E9-DBD5-43EC-BFB4-3BA27BF826CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitrion.Security.Test", "Sitrion.Security.Test\Sitrion.Security.Test.csproj", "{E031EA43-A760-4655-9F21-D38EA85EB4DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DevRelease|Any CPU = DevRelease|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F660A29-C8A8-4E87-8DB5-8A41A9FFFB42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F660A29-C8A8-4E87-8DB5-8A41A9FFFB42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F660A29-C8A8-4E87-8DB5-8A41A9FFFB42}.DevRelease|Any CPU.ActiveCfg = DevRelease|Any CPU
+		{6F660A29-C8A8-4E87-8DB5-8A41A9FFFB42}.DevRelease|Any CPU.Build.0 = DevRelease|Any CPU
+		{6F660A29-C8A8-4E87-8DB5-8A41A9FFFB42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F660A29-C8A8-4E87-8DB5-8A41A9FFFB42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{119EA9E9-DBD5-43EC-BFB4-3BA27BF826CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119EA9E9-DBD5-43EC-BFB4-3BA27BF826CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119EA9E9-DBD5-43EC-BFB4-3BA27BF826CD}.DevRelease|Any CPU.ActiveCfg = DevRelease|Any CPU
+		{119EA9E9-DBD5-43EC-BFB4-3BA27BF826CD}.DevRelease|Any CPU.Build.0 = DevRelease|Any CPU
+		{119EA9E9-DBD5-43EC-BFB4-3BA27BF826CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{119EA9E9-DBD5-43EC-BFB4-3BA27BF826CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E031EA43-A760-4655-9F21-D38EA85EB4DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E031EA43-A760-4655-9F21-D38EA85EB4DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E031EA43-A760-4655-9F21-D38EA85EB4DF}.DevRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{E031EA43-A760-4655-9F21-D38EA85EB4DF}.DevRelease|Any CPU.Build.0 = Release|Any CPU
+		{E031EA43-A760-4655-9F21-D38EA85EB4DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E031EA43-A760-4655-9F21-D38EA85EB4DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
