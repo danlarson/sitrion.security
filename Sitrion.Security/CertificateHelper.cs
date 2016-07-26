@@ -8,7 +8,10 @@ namespace Sitrion.Security
     {
         public static X509Certificate2 LoadCertificateByThumbprint(string thumbprint)
         {
-            return LoadCertificateByThumbprint(StoreName.My, StoreLocation.LocalMachine, thumbprint);
+            var cert = LoadCertificateByThumbprint(StoreName.My, StoreLocation.LocalMachine, thumbprint);
+            if (cert == null)
+                cert = LoadCertificateByThumbprint(StoreName.My, StoreLocation.CurrentUser, thumbprint);
+            return cert;
         }
 
         public static X509Certificate2 LoadCertificateByThumbprint(StoreName storeName, StoreLocation storeLocation, string thumbprint)
